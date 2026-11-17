@@ -78,7 +78,7 @@
             <section>
                 <button id="org-button" onclick="expand(org_text)">Organization</button>
                 <div> <!-- to link directly to here use #organization-->
-                <a name="Organization" id="organization" class="section-text closed">
+                <a name="organization" id="organization" class="section-text closed">
                     Montclair State University, Graduate Assistant, 2020-2022
                     <ul>
                         <li>Managed the organization of all data, including sound files, transcription, sound data, analysis data, survey data, and metadata.</li>
@@ -93,6 +93,32 @@
                 </a>
             </div>
             </section>
+            <section>
+                <button id="ss-button" onclick="expand(ss_text)">Self-starter</button>
+                <div> <!-- to link directly to here use #self-starter-->
+                    <a name="self-starter" id="self-starter" class="section-text closed">
+                        <p>Projects I have initiated and completed on my own include:</p>
+                        <p>Montclair State University, Graduate Assistant, 2020-2022</p>
+                        <ul>
+                            <li>
+                                Added conditional formatting to the Google Sheet attached to the interest form to automatically flag ineligible students, preventing errors.
+                            </li>
+                            <li>Created a workflow in Qualtrics to send IP address information to Slack channel.</li>
+                            <li>Learned to use HTTP to deliver information directly to the Qualtrics survey, which allowed the survey data to be connected to the experiment data.</li>
+                            
+                        </ul>
+                        TIME Systems, Business Analyst/Business Associate, 2018-2023
+                        <ul>
+                            <li>Created a system to automate the quarterly report, saving several hours of manual work each quarter (as reported by HR).</li>
+                            <li>Created a business development tool said by manager to have saved "hours of work".</li>
+                            <li>Designed and rebuilt SharePoint Quality Management System and Opportunity Management System to more efficiently manage processes.</li>
+                            <li>Realized that the "date filter" on the Power BI console did not actually show what items were open at that date. Completely rebuilt the console down to the basic structure to reflect the correct information.</li>
+                            <li>Accessed the SharePoint API to automate a report documenting access levels of various users, saving time in configuration audits.</li>
+
+                        </ul>
+                    </a>
+                </div>
+            </section>
         </div>
     </article>
     </main>
@@ -103,12 +129,16 @@
             <a href="soft-skills.html">Soft Skills</a>
         </nav>
     </aside>
+    <div class="footer">
+        <a href="https://github.com/slittle95">GitHub Profile</a>
+    </div>
     <script src="index.js"></script>
     <script>
         console.log("bada bing");
         const pr_text = document.getElementById("prioritization");
         const ppl_text = document.getElementById("people-management");
         const org_text = document.getElementById("organization");
+        const ss_text = document.getElementById("self-starter");
         console.log("bada boom");
 
     </script>

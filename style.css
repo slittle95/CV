@@ -62,7 +62,7 @@ section button, h1 a {
     font-size: 1.2em;
     cursor: pointer;
 }
-nav a {
+nav a, .footer a {
     background-color: rgb(66, 145, 66);
     /*height:1.5em;*/
     border-radius: 5%;
@@ -73,6 +73,14 @@ nav a {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     cursor: pointer;
     padding: 0.5em;
+}
+
+.footer {    
+    left:0;
+    position: fixed;
+    bottom: 0;
+    width: 15m;
+    margin: 1em;
 }
 
 img {
