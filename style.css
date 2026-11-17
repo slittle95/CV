@@ -42,6 +42,8 @@ section div {
 
 section div a {padding:1em;}
 
+.long {padding:3em;}
+
 section button, h1 a {
     background:linear-gradient(to left top, green, white, green);
     text-align:center;
