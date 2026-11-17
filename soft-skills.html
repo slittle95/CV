@@ -7,12 +7,94 @@
 <img src="me-at-work.jpg">    
 <main>
         <h1>Soft Skills</h1>
-        <section>
-            <button></button>
-        </section>
-        <section>
-            <button></button>
-        </section>
+    <article>
+        <div class="center">
+            <section>
+                <button id="pr-button" onclick = "expand(pr_text)">Prioritization</button>
+                <div> <!-- to link directly to here use #prioritization-->
+                    <a name="prioritization" id="prioritization" class="section-text closed">
+                        Montclair State University, Graduate Assistant, 2020-2022
+                        <ul>
+                            <li>
+                                Helped run the lab at the same time as getting two degrees.
+                            </li>
+                        </ul>
+                        TIME Systems, Technical Writer, 2023-2024
+                        <ul>
+                            <li>
+                                Worked with multiple stakeholders on simultaneous projects.
+                            </li>
+                        </ul>
+                        TIME Systems, Business Analyst/Business Associate, 2018-2023
+                        <ul>
+                            <li>
+                                Held positions of business development proposal manager, software engineer, compliance officer, and quality assurance representative simultaneously.
+                            </li>
+                            <li>
+                                Coordinated multiple stakeholders over 4+ companies to create on-time, compliant, and competitive proposals.
+                            </li>
+                        </ul>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <button id="ppl-button" onclick = "expand(ppl_text)">People management and communication</button>
+                <div> <!-- to link directly to here use #people-management-->
+                   <a name="people-management" id="people-management" class="section-text closed">
+                        Montclair State University, Graduate Assistant, 2020-2022
+    
+                    <ul>
+                            <li>
+                                Trained 10+ undergraduate and graduate students as proctors. Provided logistical support.
+                            </li>
+                     </ul>
+                        TIME Systems, Technical Writer, 2023-2024
+                        <ul>
+                            <li>
+                                Worked with multiple stakeholders on simultaneous projects.
+                            </li>
+                            <li>Discussed desired features with stakeholders, asked clarifying questions, determined goals and constraints, and converted into documentation.</li>
+                        <li>Collaborated with teammates to perform system and regression testing and oversee User Acceptance testing.</li>
+                        </ul>
+                        TIME Systems, Business Analyst/Business Associate, 2018-2023
+                        <ul>
+                            <li>
+                                Assisted coworkers in learning new technology and creating protocols and tutorials. Reviewed documentation.
+                            </li>
+                            <li>Led one team in the CMMI certification process and worked as a member of four others.</li>
+                            <li>
+                                Coordinated multiple stakeholders over 4+ companies to create on-time, compliant, and competitive proposals.
+                            </li>
+                            <li>Instructed intern in debugging and custom Agile framework. Performed code peer reviews for her.</li>
+                            <li>Reviewed test cases and coordinated with tester.</li>
+                        </ul>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </article>
+    <article>
+        <div class="center">
+            <section>
+                <button id="org-button" onclick="expand(org_text)">Organization</button>
+                <div> <!-- to link directly to here use #organization-->
+                <a name="Organization" id="organization" class="section-text closed">
+                    Montclair State University, Graduate Assistant, 2020-2022
+                    <ul>
+                        <li>Managed the organization of all data, including sound files, transcription, sound data, analysis data, survey data, and metadata.</li>
+                    </ul>
+                    TIME Systems, Business Analyst/Business Associate, 2018-2023
+                    <ul>
+                        <li>Maintained knowledge base, including how-to guides, decision logs, issues, risks, release notes, templates, standards, and requirements. Organized 300+ documents.</li>
+                    </ul>
+                    <ul>
+                        Ensured every action item for each proposal and project was completed.
+                    </ul>
+                </a>
+            </div>
+            </section>
+        </div>
+    </article>
     </main>
     <aside>
         <nav>
@@ -21,6 +103,14 @@
             <a href="/soft-skills.html">Soft Skills</a>
         </nav>
     </aside>
+    <script src="index.js"></script>
+    <script>
+        console.log("bada bing");
+        const pr_text = document.getElementById("prioritization");
+        const ppl_text = document.getElementById("people-management");
+        const org_text = document.getElementById("organization");
+        console.log("bada boom");
 
+    </script>
 </body>
 </html>

@@ -6,13 +6,153 @@
 <body>
 <img src="me-at-work.jpg">    
 <main>
-        <h1>Linguistic Research</h1>
-        <section>
-            <button></button>
-        </section>
-        <section>
-            <button></button>
-        </section>
+    <h1>Linguistic Research: Highlights</h1>
+    <article>
+        <div class="center">
+            <section>
+                <button id="ca-button" onclick = "expand(ca_text)">Coordination</button>
+                <div> <!-- to link directly to here use #coordination-->
+                    <a name="coordination" id="coordination" class="section-text closed">
+                    Professional experience:
+                    <ul>
+                        <li>Managed scheduling and coordination for faculty research project. Emailed upwards of 160 research participants and successfully scheduled 17 pairs of participants over 5 weeks.</li>
+                        <li>Tracked and managed human subjects payments. Prepared visit materials.</li>
+                        <li>Oversaw and supported data collection and storage, including Qualtrics data and audio files.</li>
+                        <li>Trained research proctors and assisted with troubleshooting of recording equipment and software.</li>
+                        <li>Took meeting minutes and assigned action items.</li>
+                        <li>Created protocols and tutorials.</li>
+                        <li>Assisted with IRB proposal for modification.</li>
+                    </ul> 
+                    </a>
+                </div>
+            </section>
+            <section>
+                <button id="ex-button" onclick = "expand(ex_text)">Experiments</button>
+                <div> <!-- to link directly to here use #experiments-->
+                   <a name="experiments" id="experiments" class="section-text closed">
+                        Professional experience:
+                        <ul>                            
+                            <li>Designed and carried out a small study to evaluate the effectiveness of the AutoRPT software.</li>
+                            <li>Collected and analyzed Praat data, including running a t-test and creating graphs in R.</li>
+                            <li>Wrote up the experiment for incorporation into a manuscript.</li>
+                            <li>Helped write and present conference paper on research.</li>
+
+                        </ul> 
+                        Classwork (graduate):
+                        <ul>
+                            <li>Research Design in Applied Linguistics</li>
+                            <li>Quantitative Linguistics</li>
+                            <li>Research Seminar (x2)</li>
+                            <li>Research Questions in Applied Linguistics</li>
+                        </ul>
+                        Undergrad:
+                        <ul>
+                            <li>Wrote IRB proposal.</li>
+                            <li>Conducted interviews with participants.</li>
+                            <li>Analyzed phonetic data using R and Praat.</li>
+                            <li>Wrote up findings in a thesis.</li>
+                        </ul>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </article>
+    <article>
+        <div class="center">
+            <section>
+                <button id="npy-button" onclick = "expand(npy_text)">Neuro and Psych</button>
+                <div> <!-- to link directly to here use #npy-->
+                    <a name="npy" id="npy" class="section-text closed">
+                        Coursework:
+                        <ul>
+                            <li>Intro to Neuroscience (undergrad)</li>
+                            <li>Psychology of Language (undergrad)</li>
+                            <li>Minor in Biology (undergrad)</li>
+                            <li>Special Topics in NLP: Psychology (graduate)</li>
+                            <li>Studied ERPs in enough depth to write a research proposal (graduate).</li>
+                        </ul> 
+                    </a>
+                </div>
+            </section>
+            <section>
+                <button id="ling-button" onclick = "expand(ling_text)">Other Linguistics Classes</button>
+                <div> <!-- to link directly to here use #linguistics-->
+                    <a name="linguistics" id="linguistics" class="section-text closed">
+                        <ul>
+                            <li>Syntax (undergrad and graduate)</li>
+                            <li>Phonetics and Phonology (undergrad and graduate)</li>
+                            <li>Semantics and Pragmatics (undergrad and graduate)</li>
+                            <li>Second Language Acquisition (graduate)</li>
+                            <li>English Prosody</li>
+                            <li>Structure of ASL and Bimodal Bilingualism (undergrad)</li>
+                            <li>Typology and Constructed Languages (undergrad)</li>
+
+                        </ul>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </article>
+    <article>
+        <div class="center">
+            <section>
+                    <button id="nlp-button" onclick = "expand(nlp_text)">Natural Language Processing</button>
+                    <div> <!-- to link directly to here use #nlp-->
+                        <a name="nlp" id="nlp" class="section-text closed">
+                            <ul>
+                                <li>Optimized and expanded code base for Python machine learning model using torch, tensorflow, numpy, pandas, and more.</li>
+                                <li>Undergrad and graduate courses in Computational Linguistics.</li>
+                                <li>Graduate course: Special Topics in Natural Language Processing.</li>
+                                <li>Degree in computer science.</li>
+                            </ul> 
+                        </a>
+                    </div>
+                </section>
+                 <section>
+                    <button id="sp-button" onclick = "expand(sp_text)">Spanish</button>
+                    <div> <!-- to link directly to here use #spanish-->
+                        <a name="spanish" id="spanish" class="section-text closed">
+                            <ul>
+                                <li>Spanish classes consistently from ages 5-19.</li>
+                                <li>Study abroad in Granada, during which I wrote my thesis on Spanish linguistics, including reading research written in Spanish and conducting interviews in Spanish.</li>
+                                <li>Graduate course: Spanish in the U.S. (conducted in Spanish)</li>
+                                <li>Current level: conversational/academic</li>
+                                <li>Navigated travel in Spain as recently as 2026.</li>
+                            </ul>
+                        </a>
+                    </div>
+                </section>
+            </div>
+            </article>
+            <article>
+      <h1>Context: Research Portfolio</h1>
+<h2>Graduate work</h2>
+<h3>Experimental Linguistics Lab</h3>
+<p><strong>Supervisor:</strong> Dr. Jonathan Howell, Montclair State University
+<p><strong>Background:</strong> Dr. Howell was studying prosody in under-studied varieties of English, specifically Latine English and African-American English. When I joined the lab, he had 1) IRB approval to begin a project that continued the Montclair Map Task, which recorded speech between participants as they solved a map task together, and 2) a working Python machine learning software called AutoRPT, which was trained on the Boston Radio Corpus and performed Rapid Prosody Transcription on voice data files. It over-annotates on purpose and is designed to be used as a first step for a human annotator, rather than to replace.</p>
+<h4>Map Task (2024-25)</h4>
+<p>To minimize external factors that might cause the participants to code-switch, Dr. Howell wanted to match pairs of African-American speakers with an African-American proctor, and the same for Latine speakers. Therefore, coordinating schedules for this project was uniquely tricky. I had the Google form which collected participant interest forward to my email and tracked participants via the Google Sheet connected to the form. I added conditional formatting to quickly eliminate ineligible candidates and a coding column to sort by type of English, and tracked when and how many times a candidate had been contacted, as well as where they were in the scheduling process and their availability. I helped Dr. Howell train proctors (and acted as a proctor myself) for the different types of English and kept calendars with their regular schedules. Once I found two participants and, preferably, two proctors with overlapping schedules, I sent an email to all of them to confirm and booked the slot on the lab schedule. When we moved from Slack to MS Teams, I started using Teams meeting invites to reduce the possibility of errors.</p>
+<p>I made sure the proctors had supplies for the task and cash to pay the participants and oversaw data collection. When only one proctor was available, I came to the lab myself to provide logistical backup in case any of these things were missing or the proctor had trouble with the equipment. I also wrote a detailed protocol with screenshots and created a training video. I regularly checked to make sure the participant agreement forms, records of cash disbursement, and amount of cash in the box matched, and reconciled the logs when they did not. I also closely tracked the records of who was scheduled to come and checked their demographic data with the file name of their audio file to make sure those matched before the record of whose data was whose was deleted. I noted early on that the Qualtrics survey had no actual connection to the audio file and created a Qualtrics workflow to allow us to track survey data. At the end of the year, I reported enrollment numbers.</p>
+<h4>AutoRPT (2024-25)</h4>
+<p>I learned the AutoRPT code by following the workflow through the code files and documenting it. A draft of the manuscript introducing the software had already been written, and a reviewer had asked how we knew whether our software actually improved the speed of annotation. I designed and carried out a small study where a handful of annotators annotated files with and without the help of the software. The amount that participants talk varies, so I normalized by word count and eliminated one-word sentences from consideration. I performed the data analysis, running a t-test in R, and found the p-value was significant, supporting our hypothesis. I created graphs, also in R, and wrote up the experiment for incorporation into our manuscript. We sent the manuscript to two conferences, and I helped to make sure the version each conference got followed its specifications (font size, citation style, etc.). We were accepted to LREC 2026, and I helped to create the conference materials, including a poster and a demonstration video. I also got to travel to Spain to present in person at the conference.</p>
+<p><strong>Publication:</strong> Heiney, S., Hicks, T., Little, S., Lourenco, F., Retana, K., Stevens, E., & Howell, J. (2026). AutoRPT: A Tool for Bootstrapping Prosodic Annotation. In Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026) (pp. 5640–5648). European Language Resources Association (ELRA).
+https:// doi.org/10.63317/25i8wpabeno4.</p>
+<h4>Phonology Accessibility (2025)</h4>
+<p>Separately, Dr. Howell had me research and implement techniques in order to make his Phonetics and Phonology class accessible to a blind student. I worked with the student to determine what was most useful and produced a set of tiles with raised IPA symbols and Braille, as well as a 3D-printed waveform and image descriptions for class slides.</p>
+<p><strong>Publication:</strong> In progress</p>
+<h4>LMEDS (2025-26)</h4>
+<p>For my second year, Dr. Howell moved to studying perception of prosody by naive listeners. We worked as a team to design a test to be used with the LMEDS software, which I implemented in HTML. To obtain the short audio files and their transcripts needed for the software, I built on the existing AutoRPT code and wrote a script in Python to produce the files. I used HTTP to collect the participant ID from the software and append it to the survey data, again allowing the data to be tracked. We updated the advertising materials and participant agreement form, wrote an IRB modification proposal to cover this part of the experiment, and upon approval, scheduled students to come to the lab and oversaw data collection.</p>
+<h3>Capstone (2026)</h3>
+<p><strong>Supervisor:</strong> Dr. Libby Barak, Montclair State University</p>
+<p>I studied Spanish preposition distribution and overlap. I classified prepositions according to semantic functions and performed multidimensional scaling analysis to examine the relationships between them.</p>
+
+<h2>Undergraduate work</h2>
+<h3>Thesis (2016-17)</h3>
+<p><strong>Supervisor:</strong> Dr. Emily Gasser, Swarthmore College</p>
+<p><strong>Background:</strong> Although I graduated from Bryn Mawr College, the Linguistics department is a tri-college affair with Haverford and Swarthmore, and, accordingly, my thesis advisor was a Swarthmore professor and my thesis is published under the Swarthmore linguistics website. Upon learning that I would be studying abroad in Spain for the semester prior to my thesis semester, the department chair asked me to begin my thesis while abroad.</p>
+<p>I decided to study Spanish final consonant deletion. Without a clear idea of exactly what angle I was going to take, I wrote my IRB proposal broadly, aiming to collect both phonological and sociolinguistic data via a semi-structured interview I would record on video. I collected between ten and twenty interviews from professors, community members, and students in Granada. Once back home, I analyzed the data. I didn’t have enough phonological data to make claims of significance, but I graphed and discussed my findings in context of existing work. I defended my thesis before a panel. </p>
+<p><strong>Publication:</strong> Little, S. (2017). That Southern Charm: /s/ Deletion in Southern Spain. Swarthmore College Linguistics Dept. https://scholarship.tricolib.brynmawr.edu/items/d1e01825-39e2-4a44-8d83-41e183615528</p>
+</article>
     </main>
     <aside>
         <nav>
@@ -21,6 +161,17 @@
             <a href="/soft-skills.html">Soft Skills</a>
         </nav>
     </aside>
+    <script src="index.js"></script>
+    <script>
+        console.log("bada bing");
+        const ca_text = document.getElementById("coordination");
+        const ex_text = document.getElementById("experiments");
+        const npy_text = document.getElementById("npy");
+        const ling_text = document.getElementById("linguistics");
+        const nlp_text = document.getElementById("nlp");
+        const sp_text = document.getElementById("spanish");
+        console.log("bada boom");
 
+    </script>
 </body>
 </html>
